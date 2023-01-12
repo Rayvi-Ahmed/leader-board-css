@@ -1,0 +1,92 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto:ital@0;1&family=Work+Sans&display=swap');
+
+/* utilities */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #9F9F9F;
+
+}
+
+/* top player style */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #562EFF;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.hr {
+    border: 1px solid rgb(155, 146, 146);
+    margin-top: 30px;
+}
+
+/* top blogs style */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-row-gap: 16px;
+}
+
+.blog {
+    display: flex;
+}
+
+.thumnail img {
+    width: 177px;
+    height: 177px;
+}
+
+.blog-info {
+    margin-left: 17px;
+}
+
+.blog-title {
+    font-size: 17px;
+
+}
+
+.blog-author {
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+    margin-left: 7px;
+}
